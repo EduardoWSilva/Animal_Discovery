@@ -1,0 +1,1014 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* geral */
+h2,
+h3 {
+    color: #333;
+}
+
+.bold {
+    font-weight: 700;
+    color: #000;
+    border-bottom: 2px solid #ac855b;
+    cursor: pointer;
+}
+
+.div-autor {
+    margin: 0.9rem 6.0rem 0;
+    padding: 0 0 0 30px;
+    border-left: 1px solid #555;
+    height: 40px;
+    color: rgb(51, 51, 51);
+}
+
+.div-autor .descri {
+    font-size: 0.875rem;
+    color: rgb(51, 51, 51);
+    padding: 0 0 5px 0;
+}
+
+/* menu */
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: #19272f;
+    padding: 0 2rem;
+}
+
+.fa-bars {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 5px;
+    font-size: 33px;
+}
+
+nav {
+    position: relative;
+}
+
+.logo {
+    border-radius: 5px;
+    width: 79px;
+    margin-top: 1px;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 8px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 25px;
+
+}
+
+.navbar-items a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-size: 17px;
+}
+
+.navbar-items a:hover {
+    color: #826444;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #826444;
+    border-radius: 5px;
+
+}
+
+.navbar-items .default-btn:hover {
+    background-color: #4e3c28;
+    color: #fff;
+}
+
+/* banner */
+.banner-pag {
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 22rem 0;
+
+}
+
+.mgs-banner {
+    text-align: center;
+    width: 45%;
+    color: #dad9d9;
+    position: relative;
+    top: 250px;
+    left: 50px;
+
+}
+
+.mgs-banner h1 {
+    font-size: 40px;
+}
+
+.mgs-banner p {
+    font-size: 30px;
+}
+
+
+
+/* ciencia */
+.ciencia-container {
+    padding: 5rem 0;
+}
+
+.sec-tema-ciencia {
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    width: 7%;
+    text-align: center;
+    margin: 25px 0 0 107px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.sec-tema-ciencia b:hover {
+    border-bottom: 3px solid #19272f;
+}
+
+.ciencia-container h2 {
+    padding: 20px 0 0 0;
+    width: 80%;
+    margin: 0 0 0 100px;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 800;
+}
+
+.ciencia-container h3 {
+    margin: 0 0 0 100px;
+    padding: 30px 0;
+
+}
+
+.ciencia-container figure img {
+    width: 100%;
+}
+
+
+.sec-text-ciencia {
+    padding: 90px 0 0 0;
+    margin: 0 96px;
+    text-align: left;
+    color: #414141;
+
+}
+
+.sec-text-ciencia p {
+    font-size: 1.1875rem;
+    line-height: 1.9375rem;
+    margin-bottom: 15px;
+    width: 71%;
+}
+
+.sec-text-ciencia h4 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+
+
+}
+
+/* main página */
+.especie-container {
+    border-top: 1px solid #ccc;
+    padding: 5rem 0;
+}
+
+.especie-container h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 52px;
+    padding: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sec-animais {
+    padding: 3.9rem 0 3.9rem;
+    background-image: url("../img/forest-6761846_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-animais ul {
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+
+}
+
+.sec-animais li {
+    flex: 1 1 200px;
+    text-align: center;
+    font-size: 1.1275rem;
+    background-color: #826444;
+    border-radius: 5px;
+    margin: 25px;
+    list-style: none;
+}
+
+.sec-animais img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sec-animais h3 {
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.sec-animais p {
+    color: #000000;
+    padding: 10px;
+
+}
+
+.saber-btn {
+    padding: 10px 10px;
+    float: right;
+    margin: 0 35px;
+    background-color: #826444;
+    border-radius: 5px;
+}
+
+.div-saber-mais a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.div-saber-mais a:hover {
+    background-color: #ac855b;
+}
+
+/* meio ambiente */
+.meio-ambiente-container {
+    padding: 5rem 0;
+}
+
+.sec-tema-meio-ambiente {
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    width: 10%;
+    margin: 25px 0 0 107px;
+    font-size: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.sec-tema-meio-ambiente b:hover {
+    border-bottom: 3px solid #19272f;
+}
+
+.meio-ambiente-container h2 {
+    padding: 20px 0 0 0;
+    margin: 0 0 0 100px;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 800;
+}
+
+.meio-ambiente-container h3 {
+    margin: 0 0 0 100px;
+    width: 83%;
+    padding: 30px 0;
+    color: #000;
+}
+
+.meio-ambiente-container figure img {
+    width: 100%;
+}
+
+.sec-text-meio-ambiente {
+    padding: 90px 0 0 0;
+    margin: 0 96px;
+    text-align: left;
+    color: #414141;
+
+}
+
+.sec-text-meio-ambiente p {
+    font-size: 1.1875rem;
+    line-height: 1.9375rem;
+    margin-bottom: 15px;
+    width: 71%;
+}
+
+.sec-text-meio-ambiente h4 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+
+
+}
+
+.sec-text-meio-ambiente ul {
+    font-size: 1.1875rem;
+    line-height: 1.9375rem;
+    color: #000;
+}
+
+.sec-text-meio-ambiente li {
+    list-style: disc;
+    list-style-position: inside;
+    width: 72%;
+}
+
+/* temas */
+
+.temas-container {
+    padding: 5rem 0;
+}
+
+.grid-temas {
+    padding: 2rem;
+    display: grid;
+    gap: 15px;
+    background-color: #19272f;
+}
+
+.div-img-tema-1 {
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.div-img-tema-2 {
+    grid-column: 4;
+    grid-row: 1/span 3;
+
+}
+
+.div-img-tema-3 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.div-img-tema-4 {
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.div-img-tema-1 h2,
+.div-img-tema-2 h2,
+.div-img-tema-3 h2,
+.div-img-tema-4 h2 {
+    font-size: 2rem;
+    width: 100%;
+    line-height: 1.273;
+    color: #fff;
+}
+
+.div-img-tema-1 img,
+.div-img-tema-2 img,
+.div-img-tema-3 img,
+.div-img-tema-4 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.div-tema-animais {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    width: 20%;
+    margin: 15px 0 20px 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #826444;
+}
+
+.div-meio-ambiente {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    width: 35%;
+    margin: 15px 0 20px 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #826444;
+
+}
+
+
+/* Preços e Planos */
+.plano-container {
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+}
+
+.plano-container h2 {
+    font-size: 55px;
+    color: #000000;
+    padding: 0 0 15px 0;
+}
+
+.plano-container p {
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.precos-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50px auto 0;
+}
+
+.plano {
+    flex: 1;
+    max-width: 330px;
+    margin: 0 20px;
+}
+
+.plano li {
+    list-style: none;
+    height: 80px;
+    line-height: 85px;
+    background-color: #e8e9ea;
+    color: #1a1a1a;
+    font-size: 22px;
+}
+
+.plano .plano-nome {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #19272f;
+    padding: 25px 0;
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+.plano-nome a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    color: #d6a979;
+}
+
+.plano .plano-btn {
+    background-color: #19272f;
+    color: #d6a979;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.plano .recomendado {
+    background-color: #376b3c;
+    color: #fff;
+}
+
+
+/* contato form */
+.contato-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+    height: 600px;
+    background-color: #1a1a1a;
+}
+
+.contato-container span {
+    color: #727272;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+
+}
+
+.contato-container h2 {
+    width: 40%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.contato-container p {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+
+.contato-container form {
+    display: flex;
+    justify-content: center;
+}
+
+.contato-container input {
+    width: 400px;
+    height: 70px;
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    outline: 0px;
+
+}
+
+.contato-container button {
+    padding: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-size: 20px;
+    background-color: #ac855b;
+    border: none;
+    color: #19272f;
+    height: 70px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contato-container button:hover {
+    background-color: #4e3c28;
+}
+
+.box-social {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.box-social i {
+    color: #ac855b;
+    padding: 30px 0;
+    font-size: 40px;
+    letter-spacing: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.box-social i:hover {
+    color: #4e3c28;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1a1a1a;
+    font-size: 25px;
+    color: #dad9d9;
+}
+
+/* Responsividade */
+
+/* Laptops apartir de 1100px */
+
+@media (max-width:1100px) {
+
+    html,
+    .body {
+        overflow-x: hidden;
+    }
+
+    .mgs-banner {
+        width: 50%;
+    }
+
+    .banner-pag h1 {
+        font-size: 30px;
+    }
+
+    .banner-pag p {
+        font-size: 25px;
+    }
+
+    .ciencia-container h3 {
+        font-size: 16px;
+    }
+
+    .especie-container ul {
+        padding: 0;
+    }
+
+    .especie-container li {
+        margin: 17px;
+    }
+
+    .saber-btn {
+        padding: 10px 10px;
+        float: right;
+        margin: 0 18px;
+        background-color: #826444;
+        border-radius: 5px;
+    }
+
+    .div-img-tema-1 h2,
+    .div-img-tema-2 h2,
+    .div-img-tema-3 h2,
+    .div-img-tema-4 h2 {
+        font-size: 1.7rem;
+        width: 100%;
+        line-height: 1.273;
+        color: #fff;
+    }
+
+    .sec-tema-meio-ambiente {
+        width: 15%;
+    }
+
+    .sec-text-ciencia p,
+    .sec-text-meio-ambiente p {
+        width: 100%;
+        font-size: 1.1875rem;
+    }
+    .sec-text-meio-ambiente ul{
+        width: 100%;
+    }
+
+    .div-tema-animais {
+        width: 30%;
+    }
+
+    .div-meio-ambiente {
+        width: 50%;
+    }
+
+    .plano-container p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .precos-container {
+        width: 100%;
+    }
+
+    .plano li {
+        font-size: 20px;
+        line-height: 100px;
+    }
+
+    .plano .plano-nome {
+        font-size: 25px;
+        height: 130px;
+        padding: 15px;
+    }
+
+    .contato-container h2 {
+        font-size: 45px;
+    }
+
+    .contato-container input {
+        width: 30%;
+        height: 50px;
+    }
+
+    .contato-container button {
+        height: 50px;
+    }
+
+    /* tablet 900px */
+    @media (max-width:900px) {
+
+        html,
+        .body {
+            overflow-x: hidden;
+        }
+
+        .navbar-items a {
+            font-size: 14px;
+            line-height: 2px;
+        }
+
+        .navbar-items li {
+            margin-left: 20px;
+        }
+
+        .default-btn {
+            padding: 10px 15px;
+        }
+
+        .mgs-banner {
+            width: 60%;
+        }
+
+        .banner-pag h1 {
+            font-size: 25px;
+        }
+
+        .banner-pag p {
+            font-size: 20px;
+        }
+
+        .sec-tema-ciencia {
+            width: 15%;
+        }
+        .especie-container ul {
+            display: grid;
+        }
+
+        .especie-container li {
+            margin: 55px;
+        }
+
+        .saber-btn {
+            margin: 0 50px;
+        }
+
+        .sec-tema-meio-ambiente {
+            width: 20%;
+            margin: 0 50px;
+        }
+        .meio-ambiente-container h2 {
+            margin: 0 50px ;
+        }
+        .meio-ambiente-container h3 {
+            margin: 0 50px ;
+        }
+        .sec-text-ciencia p,
+        .sec-text-meio-ambiente p {
+            width: 100%;
+        }
+        .sec-text-meio-ambiente ul{
+            width: 100%;
+        }
+        .grid-temas {
+            display: flex;
+            flex-direction: column;
+            padding: 100px;
+        }
+
+        .div-tema-animais {
+
+            font-size: 15px;
+        }
+
+        .sec-animais {
+            background-size: auto;
+            background-repeat: repeat;
+        }
+
+        .div-img-tema-1 h2,
+        .div-img-tema-2 h2,
+        .div-img-tema-3 h2,
+        .div-img-tema-4 h2 {
+            padding-bottom: 20px;
+            font-size: 1.5rem;
+            width: 100%;
+            line-height: 1.273;
+            color: #fff;
+        }
+
+        /* .div-meio-ambiente {
+            width: 40%;
+        } */
+
+        .contato-container {
+            padding: 0;
+        }
+        .contato-container input {
+            font-size: 30px;
+            width: 50%;
+        }
+
+    }
+
+    /* Celular */
+    @media (max-width:476px) {
+
+        html,
+        .body {
+            overflow-x: hidden;
+        }
+
+        .fa-bars {
+            display: block;
+        }
+
+        .navbar-items {
+            display: flex;
+            flex-direction: column;
+            top: 90px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 80vh;
+            background-color: rgba(22, 22, 22, 0.919);
+            backdrop-filter: blur(8px);
+            justify-content: center;
+            align-items: center;
+            line-height: 50px;
+            margin-left: -130%;
+        }
+
+        .navbar-items a {
+            font-size: 20px;
+
+        }
+
+        .mobile-menu {
+            margin-left: 0;
+        }
+
+        .ciencia-container h2 {
+            margin: 0 0 0 20px;
+            font-size: 30px;
+            line-height: 2rem;
+
+        }
+
+        .ciencia-container h3 {
+            margin: 0 0 0 20px;
+        }
+
+        .sec-tema-ciencia {
+            width: 35%;
+            margin: 0 0 0 20px;
+        }
+
+        .div-autor {
+            margin: 0.1rem 1rem 0;
+            font-size: 10px;
+        }
+
+        .especie-container h2 {
+            font-size: 35px;
+        }
+
+        .especie-container li {
+            margin: 30px;
+        }
+
+        .sec-text-ciencia h4,
+        .sec-text-meio-ambiente h4  {
+            font-weight: 700;
+            font-size: 20px;
+
+        }
+        .sec-text-ciencia,
+        .sec-text-meio-ambiente{
+            margin: 0 30px;
+        }
+
+        .sec-text-ciencia p,
+        .sec-text-meio-ambiente p {
+            width: 100%;
+        }
+        .sec-text-meio-ambiente ul li{
+            width: 100%;
+        }
+        .bold {
+
+            font-weight: 700;
+        }
+
+        .precos-container {
+            display: grid;
+            flex-direction: column;
+        }
+
+        .meio-ambiente-container h2 {
+            margin: 0 0 0 20px;
+            font-size: 30px;
+            line-height: 2rem;
+        }
+
+        .meio-ambiente-container h3 {
+            margin: 0 0 0 20px;
+        }
+
+        .sec-tema-meio-ambiente {
+            width: 35%;
+            margin: 0 0 0 20px;
+        }
+
+        .grid-temas {
+            padding: 1.5rem;
+        }
+
+        .div-tema-animais {
+            font-size: 11px;
+            width: 35%;
+        }
+
+        .div-meio-ambiente {
+            font-size: 11px;
+            width: 55%;
+        }
+
+        .div-img-tema-1 h2,
+        .div-img-tema-2 h2,
+        .div-img-tema-3 h2,
+        .div-img-tema-4 h2 {
+            padding-bottom: 20px;
+            font-size: 1.1rem;
+            width: 100%;
+            line-height: 1.273;
+            color: #fff;
+        }
+
+        .plano-container {
+            flex-direction: column;
+            width: 100%;
+
+        }
+
+        .plano-container h2 {
+            font-size: 40px;
+        }
+
+        .plano li{
+            padding:30px 20px 0 20px;
+            line-height: 20px;
+            font-size: 20px;
+        }
+        .plano .plano-btn {
+            line-height: 20px;
+        }
+            
+
+        .plano-container p {
+            padding: 0 2rem;
+            width: 100%;
+        }
+
+        .plano {
+            margin-bottom: 15px;
+        }
+
+        .contato-container span {
+            font-size: 20px;
+
+        }
+
+        .contato-container h2 {
+            font-size: 35px;
+            width: 100%;
+        }
+
+        .contato-container p {
+            width: 100%;
+            padding: 7px;
+            font-size: 27px;
+            margin-bottom: 50px;
+        }
+
+        .contato-container input {
+            font-size: 15px;
+            width: 50%;
+        }
+
+        .contato-container button {
+            font-size: 12px;
+        }
+
+        .box-social i {
+            font-size: 30px;
+        }
+
+        footer {
+            font-size: 15px;
+        }
+
+    }
+    
+}
